@@ -1,0 +1,8 @@
+inline --> toma el total de la palabra y pone al lado el siguiente inline 
+block --> toma todo el ancho
+inline-block --> es un mix, nos permite usar el width y el height
+
+
+apuntes git
+herramienta git --> Tortoise git
+https://docs.google.com/document/d/1VZrVD-hzkpxyAYAUd6-yjo9xa7eFe25ZME-RPENhNfI/edit?usp=sharing
