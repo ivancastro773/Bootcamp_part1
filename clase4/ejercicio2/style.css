@@ -19,7 +19,8 @@ body{
     margin-left: 32%;
 }
 .header{
-    background-color: blue;
+    background-image: url(../ejercicio2/img/illustration-hero.svg);
+    background-size: cover;
     height: 200px;
     border-radius: 16px 16px 0 0;
 }
