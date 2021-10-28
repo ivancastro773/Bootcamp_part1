@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-center{
+    text-align: center;
+}
+.card{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 0px 5px 10px aquamarine;
+    text-align: center;
+    background-color: white;
+    margin-left: 32%;
+}
+.header{
+    background-color: blue;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+}
+.bloques{
+    padding: 1px;
+    height: 150px;
+    text-align: center;
+}
+.container{
+    background-color: #bfeaeb;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 85px;
+    width: 285px;
+    margin-left: 52px;
+    text-align: center;
+    
+}
+.info{
+    float: left;
+    display: inline;
+    margin-top: 22px;
+}
+.button{
+    background-color: blue;
+    border-radius: 12px;
+    height: 30px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    box-shadow: 0px 5px 10px #abc5bc;
+}
+.cancel-order{
+    text-align: center;
+    margin-top: 15px;
+    color: grey;
+}
+.music{
+    float: left;
+    display: inline;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.plan{
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.price{
+    margin: 0;
+    color: grey;
+}
