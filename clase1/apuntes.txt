@@ -12,6 +12,9 @@ absolute toma el relative mas cercano, sino tiene ninguno relative arriba toma e
 
 font-size siempre en rem --> si tiene el font-size el html toma ese valor
 
+CLASE 3 
+FLOAT CON POSICIONAMIENTO
+
 apuntes git
 herramienta git --> Tortoise git
 https://docs.google.com/document/d/1VZrVD-hzkpxyAYAUd6-yjo9xa7eFe25ZME-RPENhNfI/edit?usp=sharing
@@ -21,3 +24,8 @@ https://www.frontendmentor.io/challenges
 
 https://flexboxfroggy.com/#es
 http://www.flexboxdefense.com
+
+https://excalidraw.com/       -->>> parecido al paint
+//flex box 
+justify-content: alinea eje X ( start, end, center, space-between/around) 
+align-items: eje Y (start, end, center, strech) align-content: sirve para cuando hay varias lineas de cajas

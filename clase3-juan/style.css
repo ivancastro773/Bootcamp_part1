@@ -1,0 +1,14 @@
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 180px;
+    float: left;
+    border: 1 solid black;
+}
+section{
+    position: relative;
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+    clear: left;
+}
