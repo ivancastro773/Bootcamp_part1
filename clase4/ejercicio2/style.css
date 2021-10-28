@@ -30,8 +30,8 @@ body{
     text-align: center;
 }
 .container{
+    position: relative;
     background-color: #bfeaeb;
-    border: 1px solid black;
     border-radius: 15px;
     height: 85px;
     width: 285px;
