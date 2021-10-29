@@ -3,6 +3,7 @@
 }
 body{
     background-color: grey;
+    font-family: 'Tangerine', serif;
 }
 
 .card{
@@ -22,7 +23,6 @@ body{
 }
 .part-right{
     float: right;
-    text-align: center;
     width: 50%;
     height: 100%;
     border-radius: 0 10px 10px 0;
@@ -32,7 +32,7 @@ body{
     position: relative;
     margin-bottom: 110px;
     top: 60px;
-    right: 28px;
+    left: 30px;
 }
 .title{
     font-family: 'Bentham', serif;
@@ -42,18 +42,21 @@ body{
     color: grey;
 }
 .text{
-    font-family: 'Suranna', serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Trocchi', serif;
     color: grey;
-    margin-bottom: 65px;
+    margin-bottom: 30px;
+
 }
 .price-buton{
-    font-family: 'Bentham', serif;
-    margin-left: 15px;
+    font-family: 'Suranna', serif;
+    text-align: center;
 }
 .price{
     position: relative;
-    font-weight: bold;
-    top: 15px;
+    font-size: 34px;
+    top: 12px;
 }
 .inline{
     display: inline-block;
@@ -69,5 +72,5 @@ body{
 }
 .style-button p{
     position: relative;
-    top: 15px;
+    top: 8px;
 }

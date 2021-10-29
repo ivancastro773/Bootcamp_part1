@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #927de4;
+}
+section{
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.card-right{
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+.card-right img{
+    float: right;
+    height: 400px;
+    border-radius: 0 10px 10px 0;
+}   
+.container{
+    background-color: white;
+    width: 50%;
+    height: 400px;
+    float: left;
+    border-radius: 10px 0 0 10px;
+}
+.description{
+    margin-left: 40px;
+}
+.box-red{
+    background-color: #ffa69e;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: 35px;
+    height: 30px;
+    margin-left: 170px;
+    margin-top: 5px;
+}
+.text-box{
+    position: relative;
+    top: 5px;
+    font-family: 'Farsan',cursive;
+    font-weight: bold;
+}
+.title{
+    font-family: 'Old Standard TT', serif;
+    font-size: 32px;
+}
+.description i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: yellow;
+}
+.text{
+    margin-top: 15px;
+    font-family: 'Farsan',cursive;
+    text-align: center;
+    font-size: x-large;
+    padding-right: 61px;
+    margin-left: 30px;
+    color: grey;
+}
+.price-button{
+    display: inline-flex;
+    background-color: #333333;
+    height: 38px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px 8px 8px 3px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Farsan',cursive;
+}
+.price{
+    display: inline-block;
+    width: 50%;
+    padding: 5px;
+    font-size: 22px;
+}
+.button{
+    display: inline-block;
+    background-color: #49c608;
+    width: 100%;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    font-size: 22px;
+}
