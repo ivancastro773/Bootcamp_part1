@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+.fondo{
+    background-image: url(img/fondo.jpg);
+    background-color: rgba(0, 0, 0,0.5);
+    background-blend-mode: overlay;
+}
+
+/* ES OTRA MANERA DE PONERLE FONDO Y OPACIDAD */
+/* .background{
+    position: absolute;
+    background-image: url(img/fondo.jpg);
+    height: 100vh;
+    opacity: 0.5;
+    width: 100%;
+} */
+section{
+    text-align: center;
+    margin-top: 15px;
+}
+.inline{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 334px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+.img-circle{
+    border-radius: 100%;
+    width: 165px;
+    height: 150px;
+    background-image: url(img/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+.description{
+    position: relative;
+    top: 48px;
+    font-size: large;
+}
+.name{
+    margin-bottom: 5px;
+}
+.icons{
+    position: relative;
+    background-color: #1369ce;
+    height: 45px;
+    width: 100%;
+    top: 58px;
+}
+.icon{
+    position: relative;
+    display: inline;
+    margin-left: 20px;
+    color: white;
+    right: 10px;
+    top: 15px;
+}
