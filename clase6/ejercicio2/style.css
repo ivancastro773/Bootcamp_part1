@@ -6,10 +6,13 @@ body{
 }
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     height: 500px;
     margin-top: 20px;
+}
+.up{
+    vertical-align: up;
 }
 .cards{
     width: 300px;
@@ -48,6 +51,7 @@ body{
 }
 .back-icon2{
     background: linear-gradient(-45deg, #b1b415, #f658c7);
+    transform: rotate(-45deg);
 }
 .back-icon3{
     background: linear-gradient(-45deg, #34d9df, #503fe9);
@@ -57,6 +61,10 @@ body{
 }
 .price{
     font-size: 50px;
+}
+.price-sig{
+    position: relative;
+    left: 10px;
 }
 .description i{
     display: block;

@@ -21,6 +21,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-top: 25px;
 }
 .card{
     display: flex;
