@@ -28,13 +28,13 @@ body{
    
 }
 .card1{
-    background: linear-gradient(-45deg, #f658c7, #15718d);
+    background: linear-gradient(-45deg, #ec0ed5, #67b0f5);
 }
 .card2{
-    background: linear-gradient(-45deg, #b1b415, #f658c7);
+    background: linear-gradient(-45deg, #fde465, #f225d8);
 }
 .card3{
-    background: linear-gradient(-45deg, #34d9df, #503fe9);
+    background: linear-gradient(-45deg, #29f778, #9754fb);
 }
 .circle-icon{
     display: flex;
@@ -47,14 +47,14 @@ body{
     box-shadow: 2px 5px 10px #514e60;
 }
 .back-icon1{
-    background: linear-gradient(-45deg, #f658c7, #15718d);
+    background: linear-gradient(-45deg, #ec0ed5, #67b0f5);
 }
 .back-icon2{
-    background: linear-gradient(-45deg, #b1b415, #f658c7);
+    background: linear-gradient(-45deg, #fde465, #f225d8);
     transform: rotate(-45deg);
 }
 .back-icon3{
-    background: linear-gradient(-45deg, #34d9df, #503fe9);
+    background: linear-gradient(-45deg, #29f778, #9754fb);
 }
 .plan{
     color: white;

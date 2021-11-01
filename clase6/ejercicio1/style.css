@@ -14,7 +14,7 @@ body{
     background-position: center;
     background-color: rgba(0, 23, 98, 0.5);
     background-blend-mode: overlay;
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .container{
     display: flex;
@@ -61,6 +61,8 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
    /* Firefox */
 }
+input:focus{
+    outline:none;}
 button{
     border: none;
     border-radius: 30px;
