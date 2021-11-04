@@ -1,8 +1,8 @@
-var number = 10;
-var cadena = "";
-var array = [];
-var array2 = [10,true,"foo"];
-var object = new Object();
+let number = 10;
+let cadena = "";
+let array = [];
+let array2 = [10,true,"foo"];
+let object = new Object();
 
 function tipo(a) {
     console.log(typeof a);
