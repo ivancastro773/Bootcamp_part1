@@ -1,0 +1,41 @@
+hoisting 
+
+/////
+out(foo) ->>>>>> devuelve UNDEFINED (la declara de manera invisible)
+var foo = 100
+/////
+
+/////
+var foo = 100
+out(foo) ->>>>>> devuelve 100
+/////
+var foo = 100
+function name(){
+    var foo = 200;
+    out(foo) ->>>>>>>> devuelve 200
+}
+/////
+var foo = 100
+function name(){
+    out(foo) ->>>>>>>> devuelve 100
+    var foo = 200;
+}
+out(foo) -> devuele el var mas cercano
+
+///////FUNCTIONS//////
+
+function name(){
+    return var foo = 200;
+}
+
+NAME(); ---->> devuele 200;
+
+y si la funcion esta abajo anda igual.
+////////////////////////
+NAME(); ---->> devuele 200;
+
+function name(){
+    return var foo = 200;
+}
+//////////////FUNCTIONS ARROW//////////////////
+siempre tiene que estar declarada arriba la fc, y llamarla abajo.  ->>> es una diferencia con las comunes
