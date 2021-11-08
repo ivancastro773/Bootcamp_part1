@@ -1,5 +1,5 @@
 
-function dataDay() {
+var dataDay=()=>{
     let date = new Date();
     let hour = date.getHours()+":"+date.getMinutes(); 
     let days = ["Domingo","Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];

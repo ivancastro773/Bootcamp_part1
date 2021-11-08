@@ -1,23 +1,23 @@
-let Ricardo = "Ricardo es tu tio"; 
-let Roberto = "Roberto es tu hermano"; 
-let Argentina = "El país al que perteneces";
-let Dinamita = "Es tu gato";
-var val = Number (prompt("1-Ricardo\n2-Roberto\n3-Argentina\n4-Dinamita\nIngrese un numero:"));
+let ricardo = "Ricardo es tu tio"; 
+let roberto = "Roberto es tu hermano"; 
+let argentina = "El país al que perteneces";
+let dinamita = "Es tu gato";
+var val = Number(prompt("1-Ricardo\n2-Roberto\n3-Argentina\n4-Dinamita\nIngrese un numero:"));
 
 switch (val) {
     case 1:
-    window.alert(Ricardo);
+    alert(ricardo);
       break;
     case 2:
-    window.alert(Roberto); 
+    alert(roberto); 
       break;
     case 3:
-    window.alert(Argentina);
+    alert(argentina);
       break;
       case 4:
-    window.alert(Dinamita);
+    alert(dinamita);
       break;
     default:
-    window.alert("Valor incorrecto");
+    alert("Valor incorrecto");
       break;
   }
