@@ -1,6 +1,2 @@
-function ageIndays(age) {
-    let days = age*365;
-    return days;
-}
+var ageIndays = (age) => age*365;
 console.log(ageIndays(24));
-

@@ -8,8 +8,6 @@ function concatTwoString(str1,str2) {
     let removed2 = cadena2.splice(0,2);
     cadena1 = cadena1.join(""); //lo paso nuevamente a string
     cadena2 = cadena2.join("");
-    
     return cadena1.concat(' ', cadena2); //concateno los dos string.
-    
 }
 console.log(concatTwoString(cad1,cad2));

@@ -1,8 +1,3 @@
 let array1 = ["hola","soy","ivan","castro"];
-
-function arrayToString(array) {
-    let arrayString = array.join(' '); //uno el array por espacios
-    return arrayString;
-}
-
+var arrayToString = (array) => array.join(' ');
 console.log(arrayToString(array1));
