@@ -93,9 +93,7 @@ footer{
     color: gray;
     height: 120px;
 }
-footer p{
-    margin-left: 126px;
-}
+
 .footer-list{
     display: flex;
     justify-content: space-around;
