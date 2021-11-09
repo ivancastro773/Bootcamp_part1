@@ -5,7 +5,7 @@ const numTrue = () =>{
     do {
         val = Number(prompt("Ingresa un numero del 1 al 10."));
     } while (val != valRandom){
-        alert("acertaste");
+        return alert("acertaste");
     };
 }
 numTrue();
