@@ -1,0 +1,20 @@
+GIT COMMIT -M 
+"[MAKE/FILE]" ---> AL CREAR UN UEVO ARCHIVO
+"[MAKE/FILE | JSON | TXT |DIR] | CRUD DE USUARIOS]"
+"[remove / file] unlink a database.js"
+"[updated / file] unlink a database.js"
+"[add / file] unlink a database.js"
+
+git commit -am 'message' ---->> ADD Y COMMIT EN UNA LINEA (ADD .)
+
+todos lo de corchetes va en mayusculas
+
+"[MAKE/FILE]"
+"[ADD/FILE]"
+"[REMOVED/FILE]"
+"[UPDATED/FILE]"
+
+// mande node_modules sin querer
+
+que hacer
+git -rm --cached node_modules
