@@ -1,0 +1,26 @@
+como volver atras, por algun error desde un commit indicando ese archivo IMAGEN
+
+//cuando haces un commit pero no lo querias hacer. como volver atras
+// git reset commit HEAD-1 //
+
+
+git rm -r --cached .\node_modules -->> elimina la carpeta del repositorio
+
+
+
+///////APUNTES///////
+
+//////// VOLVER ATRAS CON UN COMMIT //////
+git checkout (numero del commit al que quiero volver) (archivo al que quiero volver)
+git checkout 1515cc5 server.js
+
+////////BORRAR SOLO UNA CARPETA DEL REPOSITORIO///
+git rm -r --cached node_modules -> borra la carpeta "node_modules" del repositorio pero no la borra de mi repo local.
+
+////// BORRAR UN ARCHIVO LOCAL Y DEL REPOSITORIO///
+git rm (nombre del archivo)
+git rm readme.md
+git add.
+git commit -m '[remove/file]: readme.md'
+git push origin main
+//////////
