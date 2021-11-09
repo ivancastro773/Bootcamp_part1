@@ -1,7 +1,9 @@
 *{
     margin: 0;
 }
-
+body{
+    font-family:"Nunito Sans";
+}
 h1{
     font-size: 8rem;
 }
