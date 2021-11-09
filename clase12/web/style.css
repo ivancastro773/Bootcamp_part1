@@ -9,13 +9,13 @@ h1{
 }
 h3{
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 p{
     font-size: 1rem;
     text-align: start;
     padding-right: 164px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .container{
     display: flex;
