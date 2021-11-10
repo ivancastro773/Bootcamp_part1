@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: Shopify;
+    src: url(ShopifySans--bold.woff2);
+}
+@font-face {
+    font-family: ShopifyBold;
+    src: url(ShopifySans--extrabold.woff2);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #15141b;
+    font-family: Shopify;
+}
+.box-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+.second-container{
+    padding: 83px;
+}
+.box-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.firt-text{
+    color: yellow;
+    font-size:  1.125rem;
+}
+.title{
+    font-size: 5rem;
+    color: white;
+    font-family: ShopifyBold;
+}
+.second-text{
+    font-size:  1rem;
+    color: white;
+    margin-bottom: 15px;
+}
+.style-btn{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    background-color: #d0f224;
+}
+.img{
+    border-radius: 5px;
+    height: 50px;
+}
+.btn-float {
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-float:hover {
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-float {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+} 
