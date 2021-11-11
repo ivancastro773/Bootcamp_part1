@@ -1,0 +1,26 @@
+diferencias entre funciones normales y funciones flecha
+
+1.funciones normales, al momento de crearlas se "elevan" es decir q se puede llamar antes
+de su definicio. las funciones flecha no se puede hacer eso
+Ej 
+
+foo();
+
+function foo(){
+	return "foo";
+}
+esto se si puede
+
+foo()
+
+var foo= function()=>{
+	return "foo"
+}
+esto no se puede
+
+2.las 2 funciones tiene un retorno implicito q es undefine, pero en la funcion flecha
+Si esta en 1 sola linea retorna el valor q le pongas
+Ej
+
+()=>{ let numero=5}
+

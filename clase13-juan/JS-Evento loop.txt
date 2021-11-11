@@ -1,0 +1,23 @@
+Js lee el codigo de forma imperactiva, es decir de arriba asi abajo
+
+EVENT LOOP
+tiene 3 sectores
+
+CALL STACK-WEB API- QUEUE
+
+CALL STACK- es en donde esta leyendo todo el codigo
+
+WEB API-donde son enviados los metodos asincronicos, para q se ejecuten en segundo plano
+
+QUEUE- es la lista de espera de los metodos q se resolvieron en la web api, para volver
+a el CALL STACK
+
+Este event loop se ejecuta en un solo hilo, el cual toma 1 solo nucleo, permitiendo q el 
+resto quede sin uso, y puedan usarse para otras cosas
+
+PROMISES-CALLABAKCS- ASYNC AWAIT
+
+Las promises internamente tiene un callback, son mas facil de leer
+
+Si hay un CALLBACK significa q es un proceso asincrono
+

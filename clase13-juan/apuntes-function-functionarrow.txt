@@ -1,0 +1,22 @@
+las funciones flechas no usan o no pueden |this|
+
+en la imagen img1 justamente se puede hacer con las funciones tradicionales pero no con las arrow.
+
+* no puedo crear objetos con las funciones flechas y en las tradicionales si.
+
+
+// MOTOR V8//
+
+js lee el codigo de manera imperactiva(de arriba hacia abajo)
+cuando lee y encuentra una funcion o parte de codigo asincrona la envia al WEB API
+WEB API solo contiene partes de codigo o funciones asincrono.
+
+
+
+
+
+//	//
+PREGUNTAS QUE HACEN EN ENTREVISTAS
+
+¿que tipos de variables hay en javascript?
+son 6 (objet,undefined,string,boolean,number,symbol).
