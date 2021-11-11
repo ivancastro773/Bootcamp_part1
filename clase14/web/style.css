@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: letra;
+    src: url(f1.woff);
+}
+nav{
+    font-family: letra;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    border-bottom: 4px solid #096e4a;
+}
+:focus{
+    border-bottom: 4px solid #096e4a;
+}
+/* .active{
+    border-bottom: 4px solid #096e4a; 
+} */
+.space{
+    margin-left: 35px;
+}
+.space-right{
+    margin-right: 35px;
+}
+.space-icon{
+    margin-right: 5px;
+}
+.image {
+    height: 40px;
+    padding: 2px;
+}
+.float-right{
+    float: right;
+}
+.right{
+    margin-left: 15px;
+}
+.btn-style{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 75px;
+    padding: 8px;
+    margin-top: 6px;
+}
+.btn-style-join{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 75px;
+    padding: 8px;
+    margin-top: 6px;
+}
+.down-div{
+    display: flex;
+    align-items: center;
+    background-color: #1b3a32;
+    color: white;
+    height: 35px;
+}
+.title-down-nav{
+    margin-left: 35px;
+}
