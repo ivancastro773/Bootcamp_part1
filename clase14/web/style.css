@@ -32,7 +32,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover {
     border-bottom: 4px solid #096e4a;
 }
 :focus{
