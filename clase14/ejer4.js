@@ -3,7 +3,5 @@ const dataArr = new Set(arr);
 console.log(...dataArr);
 
 //otra forma
-let array = arr.filter((item,index)=>{
-    return arr.indexOf(item) === index;
-})
+let array = arr.filter((item,index)=>arr.indexOf(item) === index);
 console.log(array);
